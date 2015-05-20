@@ -1,0 +1,13 @@
+<md-toolbar layout="row" layout-align="center center" ng-controller="NavbarCtrl">
+
+	<oauth
+		site="{{config.site}}"
+		authorize-path="{{config.authorize_path}}"
+		client-id="{{config.client_id}}"
+		redirect-uri="{{config.redirect_uri}}"
+		profile-uri=""
+		scope="{{config.scope}}">
+	</oauth>
+
+
+</md-toolbar>
